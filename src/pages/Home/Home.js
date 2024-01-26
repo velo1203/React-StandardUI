@@ -1,5 +1,6 @@
-import {Button} from '../../components/Button/Button';
-import { Input } from '../../components/Input/Input';
+import {Button} from '../../components/Common/Button/Button';
+import { Input } from '../../components/Common/Input/Input';
+import { TextArea } from '../../components/Common/TextArea/TextArea';
 import {StyledDefaultPage} from '../../style/layout/StyledDefaultPage';
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
 
         <Button>Button</Button>
         <Input placeholder="Input" type="text"/>
+        <TextArea placeholder="TextArea" type="text" spellCheck={false}/>
     </StyledDefaultPage>
     );
 }

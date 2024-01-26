@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const Button = styled.button `
+   box-sizing: border-box;
     background-color: var(--PointColor);
     color: var(--WhiteColor);
     width:110px;

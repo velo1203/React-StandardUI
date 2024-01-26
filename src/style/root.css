@@ -10,4 +10,5 @@
     --PointColor: #2e5ff1;
     --WhiteColor: #fff;
     --Shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    --Invisible: rgba(0, 0, 0, 0);
 }
