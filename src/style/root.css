@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+:root{
+    --PointColor: #2e5ff1;
+    --WhiteColor: #fff;
+    --Shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
