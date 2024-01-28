@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const TextArea = styled.textarea`
+    font: inherit;
     box-sizing: border-box;
+    height: 100px;
     border-radius: 10px;
     border: 1px solid var(--Invisible);
     padding: 20px;
